@@ -1,0 +1,56 @@
+/* ?Colors: #ffffff - #0c1713 - #9d69a3 - #1e1127 - #ffa630*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* !Body */
+
+body {
+    background-color: rgb(6,16,27);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {text-decoration: none; color: #fff; transition: 0.5s ease;}
+
+.big-text {font-size: 60px;}
+.med-text {font-size: 40px;}
+.normal-text {font-size: 20px;}
+.small-text {font-size: 12px;}
+
+.intro-text {
+    text-transform: uppercase; 
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.primary {
+    color: #ffa630;
+}
+
+.secondary {
+    color: #9d69a3;
+}
+
+/* !Nav */
+
+nav .container-fluid {
+    vertical-align: middle;
+}
+
+.navbar-brand {
+    font-size: 200%;
+}
+
+.nav-item {
+    font-size: 130%;
+}
+
+.nav-item a:hover {
+    color: #ffa630;
+}
+
+.offcanvas-header {
+    padding: 16px 0;
+}
