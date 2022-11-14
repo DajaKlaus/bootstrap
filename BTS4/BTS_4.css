@@ -1,4 +1,4 @@
-/* ?Colors: #ffffff - #0c1713 - #9d69a3 - #1e1127 - #ffa630*/
+/* ?Colors: #fff - #0c1713 - #9d69a3 - #1e1127 - #ffa630*/
 
 * {
     margin: 0;
@@ -10,13 +10,14 @@
 body {
     background-color: rgb(6,16,27);
     font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
 }
 
 a {text-decoration: none; color: #fff; transition: 0.5s ease;}
 
 .big-text {font-size: 60px;}
 .med-text {font-size: 40px;}
-.normal-text {font-size: 20px;}
+.normal-text {font-size: 25px;}
 .small-text {font-size: 12px;}
 
 .intro-text {
@@ -33,10 +34,15 @@ a {text-decoration: none; color: #fff; transition: 0.5s ease;}
     color: #9d69a3;
 }
 
-/* !Nav */
+.mt-10 {
+    margin-top: 10%;
+}
 
-nav .container-fluid {
-    vertical-align: middle;
+/* !Header */
+
+nav {
+    background-color: rgb(6,16,27);
+    z-index: 0;
 }
 
 .navbar-brand {
@@ -53,4 +59,52 @@ nav .container-fluid {
 
 .offcanvas-header {
     padding: 16px 0;
+}
+
+/* !Hero1 */
+
+.hero1 {
+    background-color: rgb(6,16,27);
+    margin-top: -10%;
+}
+
+.hero1-content h4 {
+    margin: 0;
+}
+
+.hero1-content h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+.hero1-content h3 {
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 0;
+    margin-right: 15%;    
+}
+
+#spiegazione {
+    margin: 0 10%;
+    text-align: justify;
+}
+
+#first {
+    margin-top: 20%;
+}
+
+.row h4 {
+    align-self: flex-end;
+    margin-bottom: 10px;
+}
+
+.row p {
+    font-size: 30px;
+    line-height: 2;
+    font-family: 'Josefin Slab', serif;
+}
+
+@media screen and (max-width: 992px) {
+    .row p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
 }
