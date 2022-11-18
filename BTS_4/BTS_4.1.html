@@ -20,7 +20,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Slab:wght@300&display=swap" rel="stylesheet">
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     </head>
     
     <body>
@@ -49,7 +49,7 @@
                                 </li>
                                 
                                 <li class="nav-item">
-                                  <a class="nav-link" href="#">Come e Dove trovarci</a>
+                                  <a class="nav-link" href="#hero2">Come e Dove trovarci</a>
                                 </li>
                                 
                                 <li class="nav-item dropdown">
@@ -95,11 +95,33 @@
                 <section class="row mt-10">
                     <div class="row col-md-6">
                         <h4 class="text-center secondary col-12 mt-5">LUDOTECA</h4>
-                        <p class="col-12 ">Tra un sorso al tuo drink e un morso al tuo hamburger... tira il dado! Al Tardis puoi trovare tutti i giochi da tavolo che desideri, per passare una serata divertente e alternativa con la tua compagnia. </p>
+                        <p class="col-12">Tra un sorso al tuo drink e un morso al tuo hamburger... tira il dado! Al Tardis puoi trovare tutti i giochi da tavolo che desideri, per passare una serata divertente e alternativa con la tua compagnia. </p>
                     </div>
                     <img class="img-fluid col-md-6" src="img/clienti.jpg" alt="Image not available">
                 </section>
             </main>
         </section>
+
+        <section class="background mt-10" id="background">
+        </section>
+
+        <section class="position-relative mt-5 hero2" id="hero2">
+            <main class="container hero2-content">
+                <section class="row">
+                    <img class="img-fluid col-md-6" src="img/barman.jpg" alt="Image not available">
+                    <div class="row col-md-6">
+                        <h4 class="text-center secondary col-12 mt-3">CONTATTI</h4>
+                        <p class="text-center col-12">Per info e prenotazioni, chiamaci!<br>
+                            <a href="tel:346-6472219">+39 346 647 2219</a></p>
+                    </div>
+                </section>
+            </main>
+        </section>
     </body>
+    <script>
+        $(window).scroll(function(){
+            var scroll = $(window).scrollTop();
+            $('#background').css({"background-positionY":+(-scroll/8)+'px'});
+        });
+    </script>
 </html>
