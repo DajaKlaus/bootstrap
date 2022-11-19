@@ -1,4 +1,4 @@
-/* ?Colors: #fff - #0c1713 - #9d69a3 - #1e1127 - #ffa630*/
+/* ?Colors: #0c1713 - #9d69a3 - #1e1127 - #ffa630*/
 
 * {
     margin: 0;
@@ -98,6 +98,7 @@ nav {
 
 .row p {
     font-size: 30px;
+    color: #ffa630;
     line-height: 1.7;
     font-family: 'Josefin Slab', serif;
 }
@@ -119,6 +120,23 @@ nav {
 .hero2 {
     top: 0;
     position: sticky;
+}
+
+.hero2-content-cocktails {
+    margin-bottom: 15%;
+}
+
+.name {
+    float: left;
+}
+
+.prezzo {
+    float: right;
+}
+
+.ingredienti {
+    margin-top: 3%;
+    padding-right: 7%;
 }
 
 @media screen and (max-width: 992px) {
