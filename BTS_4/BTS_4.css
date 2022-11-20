@@ -122,8 +122,8 @@ nav {
     position: sticky;
 }
 
-.hero2-content-cocktails {
-    margin-bottom: 15%;
+.hero2-content {
+    margin-bottom: 10%;
 }
 
 .name {
@@ -134,14 +134,13 @@ nav {
     float: right;
 }
 
-.ingredienti {
-    margin-top: 3%;
-    padding-right: 7%;
-}
-
 @media screen and (max-width: 992px) {
     .row p {
         font-size: 18px;
         line-height: 1.5;
+    }
+
+    .background {
+        display: none;
     }
 }
